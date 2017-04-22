@@ -19,9 +19,9 @@
 int element;
 int top;
 char rev[max];
+void push(char element);
 int IfEmpty;
 int IfFull;
-void push(char element);
 char pop();
 
 void main()
